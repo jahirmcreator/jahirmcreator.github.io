@@ -71,3 +71,56 @@ font-weight:bold;
 .button:hover{
 background:#2ea043;
 }
+/* Navigation */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 40px;
+background:#161b22;
+}
+
+.logo{
+color:#58a6ff;
+font-size:1.8rem;
+}
+
+.nav-links{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:.3s;
+}
+
+.nav-links a:hover{
+color:#58a6ff;
+}
+
+/* Hero */
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:20px;
+color:#58a6ff;
+}
+
+.hero p{
+max-width:700px;
+margin:auto;
+font-size:1.2rem;
+line-height:1.7;
+margin-bottom:35px;
+color:#c9d1d9;
+}
